@@ -1,0 +1,159 @@
+.aware, .highlight {
+  text-align: center;
+  border: 1px solid;
+  margin: 29px auto auto auto;
+  padding: 10px;
+  width: 75%;
+  border-radius: 18px;
+  background-color: #FF7F00;
+  color: white;
+  box-shadow: 5px 5px 17px grey;
+}
+
+.signuponly{
+    display: none;
+}
+
+
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+nav ul {
+    color: white;
+}
+.clear {
+  clear: both;
+}
+
+.heading {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 18px;
+}
+
+.gallery {
+  margin: 30px 0;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.Cimage {
+  height: 516px;
+  border-radius: 0 0 5px 5px;
+}
+
+.card-img-top {
+  border-radius: 5px;
+}
+
+.mobileF {
+  display: none;
+  margin-top: 17px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #fceab8;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.muscle {
+  height: 516px;
+  width: 100%;
+}
+
+.dumbell {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+}
+
+.infoForm {
+  width: 500px;
+  margin: 30px auto;
+}
+
+footer li {
+  list-style: none;
+}
+footer a {
+  color: #dbdbdb;
+}
+footer h3 {
+  color: #dbdbdb;
+}
+footer a:hover {
+  color: darkgrey;
+}
+
+.about {
+  float: right;
+  margin: 35px;
+  margin-right: 190px;
+}
+
+.connect {
+  float: right;
+  margin-right: 0;
+}
+
+.footertop {
+  background-color: #5e5c5c;
+  padding: 10px;
+  height: 190px;
+}
+
+.downfooter {
+  background-color: #1f1e1e;
+  color: #dbdbdb;
+  padding: 15px;
+  text-align: center;
+  margin-top: 0;
+  bottom: 0;
+}
+
+@media (max-width: 500px) {
+  .mobileF {
+    display: block;
+  }
+
+  .Cimage {
+    height: 300px;
+  }
+
+  .highlight {
+    width: 100%;
+  }
+
+  .about, .connect {
+    float: none;
+    margin: 0;
+  }
+
+  .footertop {
+    text-align: center;
+    height: 230px;
+  }
+}
+
+/*# sourceMappingURL=mystyle.css.map */
