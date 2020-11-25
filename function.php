@@ -1,6 +1,6 @@
 <?php
        session_start();
-     $link = mysqli_connect("shareddb-u.hosting.stackcp.net", "register_user-3133335852", "3JHH^l[/SR{k", "register_user-3133335852");
+     $link = mysqli_connect("");
 
     if (mysqli_connect_errno()) {
         
