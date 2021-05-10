@@ -6,7 +6,7 @@
 
 <button type="button" id="sendEmail" class="btn btn-primary">SEND EMAIL</button>
 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 <?php
         include 'footer.php';
 ?>
